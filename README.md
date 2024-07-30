@@ -54,11 +54,19 @@ Based on initial system design the game development is divided into separate rel
 - Availability, Scalability and Monitoring
 - Performance Optimizations
 
+### Domain Logic Boundaries/Modules
+
+- Combat - responsible for executing the ongoing combat
+- Unit Details - details about every unit's level, xp and statistics
+- Combat Teams Preview and Selection - own and opponent's
+
 ### System Level Architecture
 
 ![Architecture](img/slaycard-v1.0.0-diagram.png)
 
-### System Level Architecture
+### Frontend Architecture
+
+### Backend Architecture
 
 ## Future Version - 1.1.0
 
