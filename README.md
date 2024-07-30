@@ -3,17 +3,22 @@ Technical Documentation for Slaycard - a Turn-Based Combat Game
 
 Project repository with the source code can be found [here](https://github.com/netspie/slaycard).
 
+### Purpose
+
+The project is primarily created for educational purposes.
+
 ### Description
 
 Slaycard is turn-based combat game where you can manage your team of characters and battle against others. Each character can be developed in a unique way, which can influence the style of gameplay. You can choose from multiple opponents, gather experience from the concluded battles and improve your characters statistics and skills.
 
-Each unit contains for base statistics 
+Each unit contains four base statistics:
 - Vitality
 - Agility
 - Power
 - Mind
+- Defence (optional, to be decided)
 
-Each of the base statistics has an impact on your combat statistics which are used directly in the battle
+Each of the base statistics has an impact on your combat statistics which are used directly in the battle:
 - Health
 - Damage
 - Defence
