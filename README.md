@@ -39,9 +39,26 @@ Based on initial system design the game development is divided into separate rel
   - Attack opponents when it's your unit's turn
   - Heal characters if low health level
 
-### Architecture
+### Non-Functional Attributes
+
+- The Simplest Gameplay Possible
+- Minimal UI
+- Web-Browser Only
+- Mandatory Integration Tests Only
+- Simple Deployment Pipeline
+
+*Out of scope*
+- Authentication
+- Persistence Storage
+- Real-time Communication
+- Availability, Scalability and Monitoring
+- Performance Optimizations
+
+### System Level Architecture
 
 ![Architecture](img/slaycard-v1.0.0-diagram.png)
+
+### System Level Architecture
 
 ## Future Version - 1.1.0
 
