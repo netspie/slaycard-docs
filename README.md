@@ -17,6 +17,7 @@ Each of the base statistics has an impact on your combat statistics which are us
 - Health
 - Damage
 - Defence
+- Accuracy
 - Dodge
 - Critics
 
@@ -39,7 +40,27 @@ Based on initial system design the game development is divided into separate rel
 
 ## Future Version - 1.1.0
 
+### Non-Functional Improvements
+
+- Real-time events communication between the client and server.
+
+### Architecture
+
+![Architecture](img/slaycard-v1.1.0-diagram.png)
+
 ## Future Version - 1.2.0
+
+### New Features
+
+- Replay completed battles anytime you want and learn from the mistakes you made..
+
+### Non-Functional Improvements
+
+- Store events in the database allowing for later processing
+  
+### Architecture
+
+![Architecture](img/slaycard-v1.2.0-diagram.png)
 
 ## Future Version - 2.0.0
 
@@ -47,5 +68,21 @@ Based on initial system design the game development is divided into separate rel
 
 - Character Progression - Gain experience from completed battles and increase you characters statistics
 
+### Non-Functional Improvements
+
+- ..
+
+### Architecture
+
+![Architecture](img/slaycard-v2.0.0-diagram.png)
+
 ## Future Version - 2.1.0
+
+### Non-Functional Improvements
+
+- Add monitoring system to ensure correct performance and availability
+  
+### Architecture
+
+![Architecture](img/slaycard-v2.1.0-diagram.png)
 
