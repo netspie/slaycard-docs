@@ -30,6 +30,7 @@ Each of the base statistics has an impact on your combat statistics which are us
 - Critics - improves chances for critical damage in combat (1.5x, 2x, or 3x damage)
 
 <br>  
+
 | Combat Stat | Influencing Base Stats |
 | --- | --- |
 | Damage | Power |
@@ -38,6 +39,8 @@ Each of the base statistics has an impact on your combat statistics which are us
 | Dodge | Agility, Mind |
 | Speed | Agility |
 | Critics | Mind |
+
+In combat units can attack opponents from enemy's team, heal themselves and, in the future, use skills.
 
 ### Game Versions
 
