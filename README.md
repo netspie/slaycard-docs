@@ -11,20 +11,33 @@ The project is primarily created for educational purposes.
 
 Slaycard is turn-based combat game where you can manage your team of characters and battle against others. Each character can be developed in a unique way, which can influence the style of gameplay. You can choose from multiple opponents, gather experience from the concluded battles and improve your characters statistics and skills.
 
-Each unit contains four base statistics:
+Each unit has four base statistics:
 - Vitality
 - Agility
 - Power
 - Mind
-- Defence (optional, to be decided)
+- .. and maybe Defence (optional, to be decided)
 
 Each of the base statistics has an impact on your combat statistics which are used directly in the battle:
-- Health
-- Damage
-- Defence
-- Accuracy
-- Dodge
-- Critics
+- Health (as % rather than fixed value)
+- Energy (to be decided/improved)
+
+- Damage - damage dealt to the opponents in combat, it is compared with enemy's defence
+- Defence - improves techniques to effectively defend oneself from an attack thus lowering the taken damage
+- Accuracy - in combat it is compared with opponent's dodge to calculate the % of probability to hit or miss
+- Dodge - helps to avoid opponets attacks
+- Speed - lets the character to perform action more often
+- Critics - improves chances for critical damage in combat (1.5x, 2x, or 3x damage)
+
+<br>  
+| Combat Stat | Influencing Base Stats |
+| --- | --- |
+| Damage | Power |
+| Defence | Defence, Power |
+| Accuracy | Mind, Power |
+| Dodge | Agility, Mind |
+| Speed | Agility |
+| Critics | Mind |
 
 ### Game Versions
 
