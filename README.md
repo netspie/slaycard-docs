@@ -51,7 +51,6 @@ Based on initial system design the game development is divided into separate rel
 ### Features
 
 - Combat
-  - Select the team you want to perform battle with from predefined sets of units and battle against opponents
   - Attack opponents when it's your unit's turn
   - Heal characters if low health level
 
@@ -86,6 +85,10 @@ Based on initial system design the game development is divided into separate rel
 
 ## Future Version - 1.1.0
 
+### New Features
+
+- Combat Team Selection - Select the team you want to perform battle with from predefined sets of units and battle against opponents
+  
 ### Non-Functional Improvements
 
 - Real-time events communication between the client and server.
