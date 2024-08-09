@@ -5,11 +5,11 @@ Project repository with the source code can be found [here](https://github.com/n
 
 ### Purpose
 
-The project is primarily created for educational purposes.
+The project is primarily created for own educational purposes, to gather experience creating fullstack applications and distributed systems.
 
 ### Description
 
-Slaycard is turn-based combat game where you can manage your team of characters and battle against others. Each character can be developed in a unique way, which can influence the style of gameplay. You can choose from multiple opponents, gather experience from the concluded battles and improve your characters statistics and skills.
+Slaycard is a turn-based combat game where you can manage your team of characters and battle against the others. Each character can be developed in a unique way, which can influence the style of combat. You can choose from multiple opponents, gather experience from the concluded battles and improve your characters statistics and skills. Initially the game is going to offer PvE combat (Player vs Bot), but in the future it will allow for PvP gameplay as well. 
 
 Each unit has four base statistics:
 - Vitality
@@ -19,18 +19,19 @@ Each unit has four base statistics:
 - .. and maybe Defence (optional, to be decided)
 
 Each of the base statistics has an impact on your combat statistics which are used directly in the battle:
-- Health (as % rather than fixed value)
+- Health - presented as % rather than concrete value 
 - Energy (to be decided/improved)
 
-- Damage - damage dealt to the opponents in combat, it is compared with enemy's defence
+- Damage - base damage dealt to the opponents in combat, it is compared with enemy's defence
 - Defence - improves techniques to effectively defend oneself from an attack thus lowering the taken damage
 - Accuracy - in combat it is compared with opponent's dodge to calculate the % of probability to hit or miss
-- Dodge - helps to avoid opponets attacks
+- Dodge - helps to avoid opponent's attacks
 - Speed - lets the character to perform action more often
 - Critics - improves chances for critical damage in combat (1.5x, 2x, or 3x damage)
 
 <br>  
 
+**Base vs Combat Stats Dependency**
 | Combat Stat | Influencing Base Stats |
 | --- | --- |
 | Damage | Power |
@@ -50,13 +51,13 @@ Based on initial system design the game development is divided into separate rel
 
 ### Features
 
-- Combat
+- Random Combat
   - Attack opponents when it's your unit's turn
-  - Heal characters if low health level
+  - Heal characters when low health level
 
 ### Non-Functional Attributes
 
-- The Simplest Gameplay Possible
+- The Simplest Gameplay Possible - random generated or predefined battle instead of selection from options 
 - Minimal UI
 - Web-Browser Only
 - Mandatory Integration Tests Only
@@ -72,6 +73,8 @@ Based on initial system design the game development is divided into separate rel
 ### Domain Logic Boundaries/Modules
 
 - Combat - responsible for executing the ongoing combat
+
+*Optional*
 - Combat Teams Preview and Selection - own and opponent's
 - Unit Details - details about every unit's level, xp and statistics
 
