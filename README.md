@@ -1,11 +1,51 @@
 # Slaycard - Technical Documentation
-Technical Documentation for Slaycard - a Turn-Based Combat Game
+Technical Documentation for Slaycard - Turn-Based Combat Game
 
 Project repository with the source code can be found [here](https://github.com/netspie/slaycard).
 
 ### Purpose
 
-The project is primarily created for own educational purposes, to gather experience creating fullstack applications and distributed systems.
+The project is primarily created for own educational purposes, to gather experience creating fullstack applications and distributed systems. Specifically it includes following subjects:
+- Various architecture styles from the simplest to more advanced:
+  - Client-Server
+  - Vertical Slices / Clean Architecture / CQRS
+  - Event-Driven Architecture / Event Sourcing
+  - API Gateway
+  
+- Programming Languages
+  - C#
+  - JavaScript / TypeScript
+  - Html / CSS
+  - Other (optional) - potentially Go
+
+- Frontend Frameworks
+  - Next.js / React
+  - Angular or Svelte
+  - Nx and microfrontend architecture
+
+- Databases
+  - MSSQL
+  - PostgreSQL
+
+- Queues
+  - RabbitMQ 
+
+- CI/CD
+  - Github Actions
+  - Azure Devops
+
+- Performance Testing Tools
+  - k6
+  - PerfView or other .NET performance tools 
+
+- Monitoring Tools
+  - Prometheus
+  - Kibana / Grafana 
+
+- Deployment or Hosting Tools and Platforms
+  - Docker
+  - Kubernetes
+  - Azure / AWS  
 
 ### Description
 
@@ -77,6 +117,13 @@ Based on initial system design the game development is divided into separate rel
 *Optional*
 - Combat Teams Preview and Selection - own and opponent's
 - Unit Details - details about every unit's level, xp and statistics
+
+### Constraints
+
+- Starting from simplest possible system architecture and over time expanding towards better scalability, availability and observability.
+- Use of .NET and Next.js and related to them technologies first - as it's the most familiar ones, then in later stages of product life using others for additional features or modules for extending the scope of compentece slightly
+- Use of Client-Server high level architecture first, skipping this way more simplistic approaches like - offline single deliverable app develop or SSR, because of goal to learn public api development
+- Use of technologies dictated by the business goals
 
 ### System Level Architecture
 
