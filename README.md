@@ -18,6 +18,10 @@ The project is primarily created for own educational purposes, to gather experie
   - Html / CSS
   - Other (optional) - potentially Go
 
+- Communication Protocols
+  - HTTP - RPC / REST / SSE
+  - Message Queue  
+
 - Frontend Frameworks
   - Next.js / React
   - Angular or Svelte
