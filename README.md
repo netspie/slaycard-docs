@@ -3,6 +3,8 @@ Technical Documentation for Slaycard - Turn-Based Combat Game
 
 Project repository with the source code can be found [here](https://github.com/netspie/slaycard).
 
+Thought process behind the development process available [here](https://medium.com/@netspie/building-a-highly-scalable-turn-based-combat-game-bd8117236364 ).
+
 ### Purpose
 
 The project is primarily created for own educational purposes, to gather experience creating fullstack applications and distributed systems. Specifically it includes following subjects:
